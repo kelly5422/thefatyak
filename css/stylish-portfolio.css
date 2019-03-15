@@ -83,6 +83,7 @@
 
 /* Image on the left side */
 
+
 .thumbnail {
     position: relative;
     height: 320px;
@@ -94,13 +95,14 @@
 }
 
 
+
 /*object-fit: cover; */
 
 
 /*object-position: center; */
 
 img.left {
-    position: absolute;
+    position: relative;
     left: 50%;
     top: 50%;
     height: 100%;
@@ -156,10 +158,10 @@ img.left {
   .thumbnail {
       float: left;
       position: relative;
-      left: 30px;
-      top: -30px;
-      height: 320px;
-      width: 530px;
+      left: 60px;
+      top: -60px;
+      height: 450px;
+      width: 400px;
       -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
       box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
@@ -172,7 +174,7 @@ img.left {
 }
 
  .image-aboutus-banner {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://images.pexels.com/photos/673649/pexels-photo-673649.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("./img/menu/main.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
