@@ -18,6 +18,7 @@
     <link href="css/theme.css" rel="stylesheet">
     <link href="css/menu-img.css" rel="stylesheet">
     <link href="css/intro.css" rel="stylesheet">
+    <link href="css/full-slider.css" rel="stylesheet">
 
   </head>
 
@@ -31,23 +32,23 @@
 
     <nav id="header" class="navbar navbar-expand-lg navbar-dark fixed-top navbar-container">
       <div id="header-container" class="container">
-        <a class="navbar-brand" href="index.html"><img width="38" src="https://i.imgur.com/2yDziUY.png"/>The Fat Yak</a>
+        <a class="navbar-brand" href="index.html"><img width="38" src="https://i.imgur.com/2yDziUY.png"/>胖犛牛 | The Fat Yak</a>
         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="index.html">首頁</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="about.html">關於我們</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="menu.html">Menu</a>
+                <a class="nav-link" href="menu.html">菜單</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="contact.html">聯絡我們</a>
             </li>
             <li class="nav-item">
               <a href="https://www.facebook.com/TheFatYakTaiwan/" class="facebook nav-link"><i class="fa fa-facebook-square fa-lg" "></i></a> 
@@ -62,10 +63,10 @@
       <div class="flex-grid featured-content">
           <div class="grid-item">
            <div class="grid-item-wrapper">
-              <div class="grid-item-bg-img" style="background-image:url(./img/boss.jpg)"></div>
+              <div class="grid-item-bg-img" style="background-image:url(./img/other/4.jpg)"></div>
               <div class="grid-item-content">
                 <div class="grid-item-content-details">
-                   <h4 class="grid-title">About</h4>
+                   <h4 class="grid-title">About Us</h4>
                 </div>
               </div>
           </div>
@@ -75,13 +76,15 @@
     <section class="page-section clearfix">
       <div class="container">
         <div class="intro">
-          <img class="intro-img-right img-fluid mb-3 mb-lg-0 rounded" src="img/intro1.jpg" alt="">
-          <div class="intro-text-left left-0 text-center bg-faded p-5 rounded">
+          <!--<img class="intro-img-right img-fluid mb-3 mb-lg-0 rounded" src="./img/other/IMG_7496.JPG" alt="">-->
+          <img class="intro-img-right" src="./img/other/IMG_7496.JPG" alt="">
+          <!--<div class="intro-text-left left-0 text-center bg-faded p-5 rounded">-->
+          <div class="intro-text-left p-5 rounded">
             <h2 class="section-heading mb-4">
-              <span class="section-heading-upper">Fresh Coffee</span>
-              <span class="section-heading-lower">Worth Drinking</span>
+              <span class="section-heading-upper">The Fat Yak</span>
+              <span class="section-heading-lower">澳式餐廳</span>
             </h2>
-            <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
+            <p class="mb-3">胖犛牛是桃園南崁第一家澳式休閒餐酒館，門口映入眼簾的是木柵欄圍住的小花園，進入店裡大量的澳州式擺設，木製的地板，溫暖的黃色燈光再加上老闆Lance熱情招呼，讓人感受到澳洲人的熱情與活潑。餐點屬於異國料理風，精緻的手工醬料搭配上精心嚴選的食材，讓人感受到廚師天馬行空的創意與用心，適合親朋好友一起分享，一起享受用餐的愉快。讓大家在溫馨愉悅的氣氛下，提供超乎期望的美食、飲料及服務。
             </p>
           </div>
         </div>
@@ -89,34 +92,98 @@
     </section>
 
     <section class="page-section clearfix">
-      <div class="container">
-        <div class="intro">
-          <img class="intro-img-left img-fluid mb-3 mb-lg-0 rounded" src="img/intro2.jpg" alt="">
-          <div class="intro-text-right left-0 text-center bg-faded p-5 rounded">
-            <h2 class="section-heading mb-4">
-              <span class="section-heading-upper">Fresh Coffee</span>
-              <span class="section-heading-lower">Worth Drinking</span>
-            </h2>
-            <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
-            </p>
+    <button class="button3">用餐環境</button>
+    <div id="carouselIndicators" class="carousel slide" data-ride="carousel" data-interval="3000" style="width:140vh;left: 7cm;">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item carousel-item-full-about active" style="background-image: url(./img/other/IMG_9345.JPG)" >
+            <div class="carousel-caption d-none d-md-block">
+              <h3>吧檯區</h3>
+              <p></p>
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item carousel-item-full-about" style="background-image: url(./img/other/S__26902545.jpg)">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>用餐區</h3>
+              <p></p>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item carousel-item-full-about" style="background-image: url(./img/other/IMG_4816.JPG)">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>大包廂</h3>
+              <p></p>
+            </div>
+          </div>
+          <!-- Slide four - Set the background image for this slide in the line below -->
+          <div class="carousel-item carousel-item-full-about" style="background-image: url(./img/other/10.jpg)">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>小庭園</h3>
+              <p></p>
+            </div>
           </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </section>
+
+
+    <section class="page-section clearfix">
+     <div class="container">
+      <div class="intro">
+       <img class="intro-img-left" src="./img/other/IMG_7253.jpg" alt="">
+       <div class="intro-text-right p-5 rounded">
+          <h2 class="section-heading mb-4">
+            <span class="section-heading-upper">The Fat Yak</span>
+            <span class="section-heading-lower">酒吧</span>
+          </h2>
+          <p class="mb-3">酒吧介紹
+          </p>
+        </div>
+      </div>
+     </div>
+    </section>
+ 
+    <section class="page-section clearfix">
+        <div class="container">
+          <div class="intro">
+            <img class="intro-img-1" src="./img/food/6.jpg" alt="">
+            <img class="intro-img-2" src="./img/food/7.jpg" alt="">
+          </div>
+        </div>
+      </section>
+
 
     <section class="page-section clearfix">
     <div class="container">
       <div class="row my-5 bg-secondary animate-in-down animate-in-done">
         <div class="p-4 col-md-6 bg-primary">
-          <p class="mb-1">Our story, our future</p>
-          <h2 class="mb-1">Michel Comini</h2>
+          <!--<p class="mb-1">服務項目</p>-->
+          <h2 class="mb-1">&lt;	&lt;	服務項目&gt;&gt;</h2>
           <i class="fa d-inline-block fa-star text-white"></i>
           <i class="fa d-inline-block fa-star mx-1 text-white"></i>
           <i class="fa d-inline-block fa-star text-white"></i>
-          <p class="my-4">Considered one of the most brilliant chef of our time. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultrices nes, pellentesque eu, pretium quis, sem.</p>
-          <img class="img-fluid d-block" src="img/intro2.jpg" width="300"> </div>
+          <p class="my-2">* 免費WI-FI</p>
+          <p class="my-2">* 可刷卡</p>
+          <p class="my-2">* 提供兒童座椅</p>
+          <p class="my-2">* 適合家族/朋友/公司  等 聚餐場所</p>
+          <img class="img-fluid d-block" src="./img/other/IMG_4827.JPG" width="300"> </div>
         <div class="p-0 col-md-6">
-          <img class="img-fluid d-block" src="img/intro2.jpg"> </div>
+          <img class="img-fluid d-block" src="./img/other/6.jpg" > </div>
       </div>
     </div>
     </section>
@@ -125,7 +192,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4 p-4">
-            <h2 class="mb-4 text-white">Contact</h2>
+              <h2 class="mb-4 text-white">聯絡資訊</h2>
             <p class="m-0">
               <a href="tel:032120708" class="text-white">(03)212-0708</a>
             </p>
@@ -134,21 +201,21 @@
             </p>
           </div>
           <div class="col-md-4 p-4">
-            <h2 class="mb-4 text-white">Location</h2>
+              <h2 class="mb-4 text-white">地址</h2>
             <p>
               <a href="https://www.google.com.tw/maps/place/338%E6%A1%83%E5%9C%92%E5%B8%82%E8%98%86%E7%AB%B9%E5%8D%80%E5%8D%97%E7%A5%A5%E8%B7%AF388%E8%99%9F/@25.0482681,121.2998709,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a079214c9b81:0x197a6093ea26f623!8m2!3d25.0482681!4d121.3020596" target="_blank" class="text-white">桃園市蘆竹區南祥路388號
               </a>
             </p>
           </div>
           <div class="col-md-4 p-4">
-            <h2 class="mb-4 text-white">Openings</h2>
-            <p class="text-white">11:30 - 15:30 &amp; 16:30 - 02:00
+              <h2 class="mb-4 text-white">營業時間</h2>
+              <p class="text-white">上午11:30 - 凌晨02:00
                 <!--<br>11:00 - 15:00 &amp; 19:00 - 02:00 Sat/Sun</p>-->
           </div>
         </div>
         <div class="row">
           <div class="col-md-12 mt-3">
-            <p class="text-center text-muted">© Copyright 2018 Your Website - All rights reserved. </p>
+            <p class="text-center text-muted">© Copyright 2019 Your Website - All rights reserved. </p>
           </div>
         </div>
       </div>

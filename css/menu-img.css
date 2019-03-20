@@ -18,7 +18,8 @@
 .flex-grid .grid-item h4 {
   margin-bottom: .5rem;
   margin-top: 0;
-  font-weight: 400;
+  font-weight: 200;
+  font-family: "Comic Sans MS", "Comic Sans", "cursive";
 }
 .flex-grid .grid-item-bg-img {
   position: relative;

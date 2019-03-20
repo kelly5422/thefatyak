@@ -23,7 +23,7 @@ p {
 
 .site-heading .site-heading-upper {
   display: block;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 800;
 }
 
@@ -31,6 +31,7 @@ p {
   font-size: 5rem;
   font-weight: 100;
   line-height: 4rem;
+  font-family: 'Microsoft JhengHei', 'Arial Narrow', Arial, sans-serif;
 }
 
 .bg-faded {
@@ -48,6 +49,54 @@ p {
 
 .intro {
   position: relative;
+}
+
+.container .intro .intro-text-left{
+  position: absolute;
+  left: -2.5cm;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.85);
+  background-size: 200px 400px;
+  font-family: 'Microsoft JhengHei', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .intro .intro-text-right{
+  position: absolute;
+  right: -2.5cm;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.85);
+  background-size: 200px 400px;
+  font-family: 'Microsoft JhengHei', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .intro .intro-img-right{
+  position: relative;
+  right: -2cm;
+  box-shadow: 5px 5px 12px rgb(54, 54, 54);
+}
+
+.container .intro .intro-img-left{
+  position: relative;
+  left: -2cm;
+  box-shadow: -5px 5px 12px rgb(54, 54, 54);
+}
+
+.container .intro .intro-img-1{
+  position: relative;
+  right: -2cm;
+  width: 85vh;
+  height: 60vh;
+  left: -2.4cm;
+  margin-right:10px;
+  box-shadow: 5px 5px 12px rgb(54, 54, 54);
+}
+
+.container .intro .intro-img-2{
+  position: absolute;
+  width: 85vh;
+  height: 60vh;
+  right: -2.4cm;
+  box-shadow: 5px 5px 12px rgb(54, 54, 54);
 }
 
 @media (min-width: 992px) {

@@ -26,9 +26,22 @@
   background-size: cover;
 }
 
+.carousel-item-full-about {
+	height: 80vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-caption{
+  font-family: 'Georgia', 'Franklin Gothic Medium', Arial, sans-serif;
+}
 
 #myCarousel .carousel-caption {
-    left:0;
+  left:0;
 	right:0;
 	bottom:0;
 	text-align:left;
@@ -38,7 +51,7 @@
 }
 
 #myCarousel .list-group {
-	position:absolute;
+	position: relative;
 	top:0;
 	right:0;
 }
@@ -60,3 +73,19 @@
 	#myCarousel .list-group {display:none;} 
 }
 
+.button3{
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: relative;
+  left: 7cm; 
+  opacity: 0.7;
+  font-family: 'Microsoft JhengHei', 'Arial Narrow', Arial, sans-serif;
+}

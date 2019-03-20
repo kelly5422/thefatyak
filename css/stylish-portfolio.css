@@ -1,3 +1,34 @@
+.button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: relative;
+  left: 5.4cm; 
+}
+
+.button2{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 5.4cm;
+  top: 320vh;
+}
+
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
@@ -29,13 +60,13 @@
 }
 
 .portfolio-item .caption .caption-content h2 {
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-transform: uppercase;
 }
 
 .portfolio-item .caption .caption-content p {
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
 }
 
 @media (min-width: 992px) {
@@ -50,9 +81,9 @@
   }
   .portfolio-item .caption .caption-content {
     transition: opacity 0.25s;
-    margin-left: 5rem;
+    margin-left: 2rem;
     margin-right: 5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
   }
   .portfolio-item img {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
@@ -64,20 +95,27 @@
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(113, 113, 113, 0.9);
+    background-color: rgba(63, 54, 54, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
+  .portfolio-item:hover .caption .caption-content{
+    transition: height 0.5s;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 10rem;
+  }
 }
 
-/* The card */
-
-.card2 {
-    position: relative;
-    background-color: #FFF;
-    -webkit-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+/* The slogan */
+.slogan .ml3 {
+  text-align: center;
+  color: rgb(109, 48, 12);
+  font-family: "Microsoft JhengHei", "Arial Narrow", Arial, serif;
+  font-weight: 900;
+  font-size: 4.5em;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
 }
 
 
@@ -85,13 +123,29 @@
 
 
 .thumbnail {
-    position: relative;
-    height: 320px;
-    width: 100%;
-    -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
-    overflow: hidden;
+  position: absolute;
+  height: 320px;
+  width: 100%;
+  -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+  z-index: 1;
+}
+
+
+
+/* The card */
+
+.card2 {
+    position: absolute;
+    top:0scm;
+    background-color: #FFF;
+    -webkit-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+    opacity: 0.7;
+    z-index: 0;
 }
 
 
@@ -147,8 +201,8 @@ img.left {
 
   .card2 {
       position: relative;
-      height: 450px;
-      width: 900px;
+      height: 600px;
+      width: 1000px;
       margin: 200px auto;
       background-color: #FFF;
       -webkit-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
@@ -160,8 +214,8 @@ img.left {
       position: relative;
       left: 60px;
       top: -60px;
-      height: 450px;
-      width: 400px;
+      height: 550px;
+      width: 450px;
       -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
       box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
@@ -201,3 +255,4 @@ img.left {
 .image-aboutus-sm-banner p {
     color:#fff;
 }
+
