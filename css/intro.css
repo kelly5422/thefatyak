@@ -99,6 +99,26 @@ p {
   box-shadow: 5px 5px 12px rgb(54, 54, 54);
 }
 
+.container .intro .intro-img-3{
+  position: absolute;
+  width: 25vh;
+  height: 25vh;
+  right: -2.4cm;
+  bottom: -15cm;
+  box-shadow: 5px 5px 12px rgb(54, 54, 54);
+  border-radius:50%;
+  z-index: 1;
+}
+
+.container .intro .intro-img-col-1{
+  position: relative;
+  width: 45vh;
+  height: 55vh;
+  box-shadow: 5px 5px 12px rgb(54, 54, 54);
+  margin: 15px;
+}
+
+
 @media (min-width: 992px) {
   .intro .intro-img-right {
     width: 75%;

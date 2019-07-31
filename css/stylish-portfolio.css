@@ -1,7 +1,8 @@
 .button{
-  background-color: #4CAF50;
+  /* background-color: #4CAF50; */
+  background-color:rgb(218, 216, 216);
   border: none;
-  color: white;
+  color:black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -34,7 +35,6 @@
   color: rgba(255, 255, 255, 0.7);
 }
 
-
 .portfolio-item {
   display: block;
   position: relative;
@@ -62,11 +62,13 @@
 .portfolio-item .caption .caption-content h2 {
   font-size: 1rem;
   text-transform: uppercase;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .portfolio-item .caption .caption-content p {
   font-weight: 300;
   font-size: 0.9rem;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 @media (min-width: 992px) {
@@ -110,11 +112,13 @@
 /* The slogan */
 .slogan .ml3 {
   text-align: center;
-  color: rgb(109, 48, 12);
+  /*color: rgb(109, 48, 12);*/
+  color: rgba(255, 8, 0, 0.918);
+  /*color: rgba(139, 0, 0, 0.685);*/
   font-family: "Microsoft JhengHei", "Arial Narrow", Arial, serif;
   font-weight: 900;
   font-size: 4.5em;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: white;
 }
 
@@ -255,4 +259,3 @@ img.left {
 .image-aboutus-sm-banner p {
     color:#fff;
 }
-
