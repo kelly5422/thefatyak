@@ -4,12 +4,20 @@
 
 .filter-button
 {
-     background-image:url(../img/button.png);
+     /* background-image:url(../img/button.png); */
+     background-color: white;
      background-size: cover;
      width:auto;
      height:40px;
-
+     opacity: 0.9;
 }
+
+.filter-button:focus
+{
+    background-color: black;
+    color: white;
+}
+
 .port-image
 {
     width: 100%;
@@ -18,6 +26,9 @@
 .gallery_product
 {
     margin-bottom: 30px;
+    max-width: 80%;
+    position: relative;
+    left: 15ch;
 }
 
 

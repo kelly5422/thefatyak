@@ -27,8 +27,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  filter: sepia(0.3) saturate(0.8);
-  -webkit-filter: sepia(0.3) saturate(0.8);
 }
 .flex-grid.featured-content .grid-item-wrapper {
   overflow: hidden;
